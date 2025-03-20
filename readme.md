@@ -22,7 +22,7 @@ O código está organizado em **pastas modulares**, separando cada algoritmo:
 ├── 📂 03-insertsort  
 │ ├── insertionsort.c  
 │ ├── insertionsort.h  
-├── 📂 04-CocktailShakerSort 
+├── 📂 04-CocktailShakerSort  
 │ ├── shakersort.c  
 │ ├── shakersort.h  
 ├── .gitignore  
