@@ -2,12 +2,14 @@
 #include "01-bubblesort/bubblesort.h"
 #include "02-selectionsort/selectionsort.h"
 #include "03-insertsort/insertionsort.h"
+#include "04-CocktailShakerSort/shakersort.h"
 
 void exibirMenu() {
     printf("\n=== MENU DE ORDENACAO ===\n");
     printf("1 - Executar Bubble Sort\n");
     printf("2 - Executar Selection Sort\n");
     printf("3 - Executar Insertion Sort\n");
+    printf("4 - Executar Cocktail Shaker Sort\n");
     printf("0 - Sair\n");
     printf("Escolha uma opcao: ");
 }
@@ -31,6 +33,10 @@ int main(void) {
             case 3:
                 printf("\nExecutando Insertion Sort...\n");
             principalInsertionSort(); // Chama a função do Insertion Sort
+            break;
+            case 4:
+                printf("\nExecutando Cocktail Shaker Sort...\n");
+            principalShakerSort(); // Chama a função do Cocktail Shaker Sort
             break;
             case 0:
                 printf("\nSaindo do programa...\n");

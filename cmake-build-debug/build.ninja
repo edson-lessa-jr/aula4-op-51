@@ -73,6 +73,12 @@ build CMakeFiles/aula4_op_51.dir/03-insertsort/insertionsort.c.obj: C_COMPILER__
   OBJECT_DIR = CMakeFiles\aula4_op_51.dir
   OBJECT_FILE_DIR = CMakeFiles\aula4_op_51.dir\03-insertsort
 
+build CMakeFiles/aula4_op_51.dir/04-CocktailShakerSort/shakersort.c.obj: C_COMPILER__aula4_op_51_unscanned_Debug C$:/Users/junior/CLionProjects/aula4-op-51/04-CocktailShakerSort/shakersort.c || cmake_object_order_depends_target_aula4_op_51
+  DEP_FILE = CMakeFiles\aula4_op_51.dir\04-CocktailShakerSort\shakersort.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\aula4_op_51.dir
+  OBJECT_FILE_DIR = CMakeFiles\aula4_op_51.dir\04-CocktailShakerSort
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target aula4_op_51
@@ -81,7 +87,7 @@ build CMakeFiles/aula4_op_51.dir/03-insertsort/insertionsort.c.obj: C_COMPILER__
 #############################################
 # Link the executable aula4_op_51.exe
 
-build aula4_op_51.exe: C_EXECUTABLE_LINKER__aula4_op_51_Debug CMakeFiles/aula4_op_51.dir/main.c.obj CMakeFiles/aula4_op_51.dir/01-bubblesort/bubblesort.c.obj CMakeFiles/aula4_op_51.dir/02-selectionsort/selectionsort.c.obj CMakeFiles/aula4_op_51.dir/03-insertsort/insertionsort.c.obj
+build aula4_op_51.exe: C_EXECUTABLE_LINKER__aula4_op_51_Debug CMakeFiles/aula4_op_51.dir/main.c.obj CMakeFiles/aula4_op_51.dir/01-bubblesort/bubblesort.c.obj CMakeFiles/aula4_op_51.dir/02-selectionsort/selectionsort.c.obj CMakeFiles/aula4_op_51.dir/03-insertsort/insertionsort.c.obj CMakeFiles/aula4_op_51.dir/04-CocktailShakerSort/shakersort.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\aula4_op_51.dir
